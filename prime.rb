@@ -7,7 +7,7 @@ def prime?(num)
   end
   testNum = 3
   loop do
-    mod = num % testNum
+     = num / testNum
     if mod == 0
       return false
     elsif testNum >= mod
