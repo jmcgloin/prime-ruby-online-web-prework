@@ -7,10 +7,10 @@ def prime?(num)
   end
   testNum = 3
   loop do
-     = num / testNum
-    if mod == 0
+    quotient = num / testNum
+    if num % testNum == 0
       return false
-    elsif testNum >= mod
+    elsif testNum >= quotient
       return true
     end
   end
